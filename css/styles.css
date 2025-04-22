@@ -185,6 +185,7 @@ body {
 
 .section-4 .sign-up-btn {
     border: 2px solid white;
+    min-width: max-content;
 }
 
 .section-4 {
