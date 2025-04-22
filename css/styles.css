@@ -141,6 +141,10 @@ body {
     padding: 100px 250px;
 }
 
+.section-3 > div {
+    min-width: 500px;
+}
+
 .quote {
     font-size: 36px;
     color: #1F2937;
