@@ -14,7 +14,9 @@ body {
 .header,
 .subsection-1,
 .img-placeholder,
-.sub1 {
+.sub1,
+.section-2,
+.section-2 > div {
     display: flex;
 }
 
@@ -24,7 +26,8 @@ body {
 }
 
 .section-1,
-.sub1 {
+.sub1,
+.section-2 {
     flex-direction: column;
 }
 
@@ -85,6 +88,10 @@ body {
 .subsection-1 {
     gap: 30px;
     justify-content: space-between;
+    align-items: center;
+}
+
+.section-2 {
     align-items: center;
 }
 
