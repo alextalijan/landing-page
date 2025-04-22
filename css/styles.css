@@ -154,3 +154,20 @@ body {
 .signature {
     max-width: 700px;
 }
+
+.square {
+    background-color: #3882F6;
+    color: white;
+}
+
+.action-heading {
+    font-size: 25px;
+}
+
+.action-text {
+    font-weight: 200;
+}
+
+.section-4 .sign-up-btn {
+    border: 2px solid white;
+}
