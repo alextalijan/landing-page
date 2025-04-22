@@ -17,7 +17,8 @@ body {
 .sub1,
 .section-2,
 .section-2 > div,
-.sub {
+.sub,
+.section-3 > div {
     display: flex;
 }
 
@@ -29,7 +30,9 @@ body {
 .section-1,
 .sub1,
 .section-2,
-.sub {
+.sub,
+.section-3,
+.section-3 > div {
     flex-direction: column;
 }
 
@@ -130,6 +133,8 @@ body {
 
 .section-3 {
     background-color: #E5E7EB;
+    align-items: center;
+    padding: 100px 250px;
 }
 
 .quote {
@@ -142,4 +147,10 @@ body {
 .signature {
     font-weight: bold;
     font-size: 20px;
+    align-self: end;
+}
+
+.quote,
+.signature {
+    max-width: 700px;
 }
