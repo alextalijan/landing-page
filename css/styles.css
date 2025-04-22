@@ -12,7 +12,7 @@ body {
 
 .section,
 .header,
-.subsection,
+.subsection-1,
 .img-placeholder,
 .sub1 {
     display: flex;
@@ -82,7 +82,7 @@ body {
     align-items: start;
 }
 
-.subsection {
+.subsection-1 {
     gap: 30px;
     justify-content: space-between;
     align-items: center;
