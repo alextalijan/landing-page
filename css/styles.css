@@ -13,7 +13,8 @@ body {
 .section,
 .header,
 .subsection,
-.img-placeholder {
+.img-placeholder,
+.sub1 {
     display: flex;
 }
 
@@ -22,8 +23,12 @@ body {
     gap: 20px;
 }
 
-.section-1 {
+.section-1,
+.sub1 {
     flex-direction: column;
+}
+
+.section-1 {
     padding: 10px 150px 100px 150px;
     gap: 100px;
 }
@@ -70,9 +75,12 @@ body {
 
 .sub1 {
     flex-basis: 50vw;
+    gap: 5px;
+    align-items: start;
 }
 
 .subsection {
     gap: 30px;
     justify-content: space-between;
+    align-items: center;
 }
