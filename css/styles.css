@@ -9,3 +9,41 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+
+.section {
+    display: flex;
+}
+
+.section-1,
+.footer {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.logo,
+.hero-main {
+    color: #F9FAF8;
+}
+
+.link,
+.hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up-btn {
+    background-color: #3882F6;
+}
+
+.img-placeholder {
+    background-color: gray;
+    color: white;
+}
