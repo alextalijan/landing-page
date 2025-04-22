@@ -18,7 +18,8 @@ body {
 .section-2,
 .section-2 > div,
 .sub,
-.section-3 > div {
+.section-3 > div,
+.square {
     display: flex;
 }
 
@@ -158,6 +159,13 @@ body {
 .square {
     background-color: #3882F6;
     color: white;
+    padding: 30px 100px;
+    flex-grow: 1;
+    justify-content: space-between;
+    max-width: 800px;
+    align-items: center;
+    border-radius: 10px;
+    gap: 5px;
 }
 
 .action-heading {
@@ -170,4 +178,10 @@ body {
 
 .section-4 .sign-up-btn {
     border: 2px solid white;
+}
+
+.section-4 {
+    justify-content: center;
+    align-items: center;
+    padding: 50px 150px;
 }
