@@ -127,3 +127,19 @@ body {
 .text {
     text-align: center;
 }
+
+.section-3 {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.signature {
+    font-weight: bold;
+    font-size: 20px;
+}
